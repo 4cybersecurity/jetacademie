@@ -6,15 +6,76 @@
   <title>Digital Library</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
     .library-header {
       text-align: center;
-      margin: 20px 0;
+      margin: 40px 0;
+      padding: 20px;
+      background-color: #002147; /* Lacivert ton */
+      color: white;
+      border-radius: 10px;
     }
+
+    .library-header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .library-header p {
+      font-size: 18px;
+    }
+
     .category-card {
-      transition: transform 0.2s;
+      transition: transform 0.2s ease-in-out;
+      margin-bottom: 30px;
+      border: none;
+      border-radius: 10px;
+      overflow: hidden;
     }
+
     .category-card:hover {
-      transform: scale(1.05);
+      transform: translateY(-10px); /* Hover etkisi ile hafif yukarı kaydırma */
+    }
+
+    .card-img-top {
+      border-bottom: 5px solid #32CD32; /* Yeşil alt çizgi */
+    }
+
+    .card-body {
+      background-color: white;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Kart gölgelendirme */
+    }
+
+    .card-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #002147;
+    }
+
+    .card-text {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .btn-primary {
+      background-color: #32CD32;
+      border: none;
+      transition: background-color 0.2s ease-in-out;
+    }
+
+    .btn-primary:hover {
+      background-color: #228B22; /* Daha koyu yeşil hover */
+    }
+
+    .container {
+      max-width: 1200px;
     }
   </style>
 </head>
