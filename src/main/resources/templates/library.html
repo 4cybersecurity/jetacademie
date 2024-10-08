@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Library</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .library-header {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .category-card {
+      transition: transform 0.2s;
+    }
+    .category-card:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+<!-- Library Header -->
+<div class="library-header">
+  <h1>Digital Library</h1>
+  <p>Explore various categories of books and resources</p>
+</div>
+
+<!-- Categories Section -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card category-card">
+        <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Category Image">
+        <div class="card-body">
+          <h5 class="card-title">Educational Books</h5>
+          <p class="card-text">Access a wide range of educational resources.</p>
+          <a href="#" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card category-card">
+        <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Category Image">
+        <div class="card-body">
+          <h5 class="card-title">Religious Texts</h5>
+          <p class="card-text">Browse through religious texts and resources.</p>
+          <a href="#" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card category-card">
+        <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Category Image">
+        <div class="card-body">
+          <h5 class="card-title">Historical Works</h5>
+          <p class="card-text">Discover historical documents and research.</p>
+          <a href="#" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add more categories as needed -->
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
