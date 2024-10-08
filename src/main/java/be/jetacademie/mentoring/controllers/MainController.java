@@ -11,9 +11,9 @@ public class MainController {
         return "jetAcademy"; // Bu sayfa henüz tanımlanmadı, Jet Academy sayfası için bir HTML dosyası oluşturulacak.
     }
 
-    @GetMapping("/digital-library")
+    @GetMapping("/library")
     public String digitalLibrary() {
-        return "digitalLibrary"; // Aynı şekilde Digital Library için de bir sayfa oluşturulacak.
+        return "library"; // Aynı şekilde Digital Library için de bir sayfa oluşturulacak.
     }
 
     // Diğer kartlar için de yönlendirmeler buraya eklenecek.
