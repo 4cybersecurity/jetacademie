@@ -85,3 +85,46 @@ body {
     padding: 10px 0;
     text-align: center;
 }
+
+/* Navbar Style Start */
+
+.navbar {
+    background-color: #002147; /* Navy background */
+    border-bottom: 2px solid #32CD32; /* Green bottom border */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #32CD32; /* Green text color for brand */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white; /* White text for links */
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #32CD32; /* Green background on hover */
+    color: #002147; /* Navy text on hover */
+    border-radius: 5px;
+}
+
+.form-inline .form-control {
+    border: 2px solid #32CD32; /* Green border for search input */
+    border-radius: 5px;
+}
+
+.form-inline .btn-outline-success {
+    color: #32CD32;
+    border-color: #32CD32;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.form-inline .btn-outline-success:hover {
+    background-color: #32CD32;
+    color: white; /* White text on hover */
+}
+
+
