@@ -5,81 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Digital Library</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-    }
 
-    .library-header {
-      text-align: center;
-      margin: 40px 0;
-      padding: 20px;
-      background-color: #002147; /* Lacivert ton */
-      color: white;
-      border-radius: 10px;
-    }
-
-    .library-header h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
-    }
-
-    .library-header p {
-      font-size: 18px;
-    }
-
-    .category-card {
-      transition: transform 0.2s ease-in-out;
-      margin-bottom: 30px;
-      border: none;
-      border-radius: 10px;
-      overflow: hidden;
-    }
-
-    .category-card:hover {
-      transform: translateY(-10px); /* Hover etkisi ile hafif yukarı kaydırma */
-    }
-
-    .card-img-top {
-      border-bottom: 5px solid #32CD32; /* Yeşil alt çizgi */
-    }
-
-    .card-body {
-      background-color: white;
-      padding: 20px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Kart gölgelendirme */
-    }
-
-    .card-title {
-      font-size: 24px;
-      font-weight: bold;
-      color: #002147;
-    }
-
-    .card-text {
-      font-size: 16px;
-      color: #555;
-      margin-bottom: 15px;
-    }
-
-    .btn-primary {
-      background-color: #32CD32;
-      border: none;
-      transition: background-color 0.2s ease-in-out;
-    }
-
-    .btn-primary:hover {
-      background-color: #228B22; /* Daha koyu yeşil hover */
-    }
-
-    .container {
-      max-width: 1200px;
-    }
   </style>
 </head>
 <body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="https://scontent-bru2-1.xx.fbcdn.net/v/t39.30808-6/300843576_429504555910129_2081255487092832717_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=9ohAPouaPOoQ7kNvgEsFgTF&_nc_ht=scontent-bru2-1.xx&_nc_gid=Axc1LzSyDz8VdGMbVh-hzD7&oh=00_AYAUG6enCg6jSIDkzaIgYofdYyXSeoNwsgi4BouI9GhGGQ&oe=6706E17E" alt="Logo" style="width:50px;"> <!-- Logo ekledik -->
+  </a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/library">Digital Library</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/mentoring">Mentoring</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/#">Contact</a>
+      </li>
+    </ul>
+  </div>
+  <form class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
 
 <!-- Library Header -->
 <div class="library-header">
@@ -120,10 +78,72 @@
         </div>
       </div>
     </div>
+    <div class="col-md-4">
+      <div class="card category-card">
+        <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Category Image">
+        <div class="card-body">
+          <h5 class="card-title">Historical Works</h5>
+          <p class="card-text">Discover historical documents and research.</p>
+          <a href="#" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card category-card">
+        <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Category Image">
+        <div class="card-body">
+          <h5 class="card-title">Historical Works</h5>
+          <p class="card-text">Discover historical documents and research.</p>
+          <a href="#" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card category-card">
+        <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Category Image">
+        <div class="card-body">
+          <h5 class="card-title">Historical Works</h5>
+          <p class="card-text">Discover historical documents and research.</p>
+          <a href="#" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- Add more categories as needed -->
 </div>
+
+<!-- Footer -->
+<footer class="footer mt-auto py-3 bg-dark text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5>About Us</h5>
+        <li><a href="#" class="text-white">Instagram</a></li>
+        <li><a href="#" class="text-white">Facebook</a></li>
+      </div>
+      <div class="col-md-4">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white">Home</a></li>
+          <li><a href="#" class="text-white">Digital Library</a></li>
+          <li><a href="#" class="text-white">Mentoring</a></li>
+          <li><a href="#" class="text-white">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Contact Us</h5>
+        <p>Email: info@jetacademie.be</p>
+        <p>Phone: +32 123 456 789</p>
+      </div>
+    </div>
+    <div class="text-center mt-3">
+      <span class="text-muted">&copy; 2023 Jetacademie. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
