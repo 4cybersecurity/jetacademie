@@ -1,26 +1,12 @@
+html, body {
+    height: 100%;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
-}
-
-.library-header {
-    text-align: center;
-    margin: 40px 0;
-    padding: 20px;
-    background-color: #002147;
-    color: white;
-    border-radius: 10px;
-}
-
-.category-card:hover {
-    transform: translateY(-10px);
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    display: flex;
+    flex-direction: column;
 }
 
 .library-header {
@@ -87,4 +73,15 @@ body {
 
 .container {
     max-width: 1200px;
+    flex: 1;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Dark background for footer */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
