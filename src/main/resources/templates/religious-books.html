@@ -1,0 +1,66 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Library</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" th:href="@{https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css}">
+
+</head>
+<body>
+
+<!-- Header -->
+<div th:replace="~{fragments/header :: header}">Header</div>
+
+<div class="container mt-5">
+    <h1>Religious Books</h1>
+    <p>Explore a variety of religious texts, including different versions of the Quran:</p>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card category-card">
+                <a href="/static/css/pdf/Kuran-i_Kerim.pdf" target="_blank"> <!-- Link to the PDF -->
+                    <img class="card-img-top" src="https://www.hayrat.com.tr/orta-boy-kuran-i-kerim-2-renkli-bordo-muhurlu-orta-boy-16x24-cm-hayrat-nesriyat-67052-37-B.jpg" alt="Quran Example 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Quran Example 1</h5>
+                        <p class="card-text">Click to view the Quran in PDF format.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="quran2.jpg" class="card-img-top" alt="Quran Example 2">
+                <div class="card-body">
+                    <h5 class="card-title">Quran Example 2</h5>
+                    <p class="card-text">Description of Quran Example 2.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="quran3.jpg" class="card-img-top" alt="Quran Example 3">
+                <div class="card-body">
+                    <h5 class="card-title">Quran Example 3</h5>
+                    <p class="card-text">Description of Quran Example 3.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<div th:replace="~{fragments/footer :: footer}">Footer</div>
+
+<!-- Bootstrap JS -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
