@@ -2,12 +2,17 @@ html, body {
     height: 100%;
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto Light", sans-serif;
     background-color: #f4f4f4;
     color: #333;
     display: flex;
     flex-direction: column;
 }
+
+
+
+
+ /* library section */
 
 .library-header {
     text-align: center;
@@ -89,14 +94,14 @@ body {
 /* Navbar Style Start */
 
 .navbar {
-    background-color: #002147; /* Navy background */
+    background-color: #528fed; /* Navy background */
     border-bottom: 2px solid #32CD32; /* Green bottom border */
 }
 
 .navbar-brand {
     font-size: 24px;
     font-weight: bold;
-    color: #32CD32; /* Green text color for brand */
+    color: white; /* Green text color for brand */
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -126,5 +131,211 @@ body {
     background-color: #32CD32;
     color: white; /* White text on hover */
 }
+
+/* Navbar Style End */
+
+
+.card-img-top {
+    width: 100%; /* Ensures the image spans the width of the card */
+    height: 200px; /* Set the desired height */
+    object-fit: cover; /* Ensures the image fills the space without distortion */
+    border-bottom: 5px solid #32CD32; /* Optional: Green bottom border */
+}
+
+
+/* Footer styling */
+.footer {
+    background-color: #16407a; /* Lacivert ton */
+    color: white;
+}
+
+.footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+
+.footer p, .footer a {
+    color: white;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #32CD32; /* Green color for the vzw JET link */
+}
+
+.footer a:hover {
+    color: #28a745;
+    text-decoration: none;
+}
+
+.footer .input-group .form-control {
+    background-color: white;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.footer .input-group-append .btn {
+    background-color: #f1c40f; /* Yellow button color */
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+.footer .input-group-append .btn:hover {
+    background-color: #d4ac0d; /* Darker yellow on hover */
+}
+
+.footer .input-group .form-control::placeholder {
+    color: #aaa;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+.footer .row {
+    padding: 10px 0;
+}
+
+.footer .text-right {
+    text-align: right;
+}
+
+/* Info Section */
+.info-section h2 {
+    color: #32CD32 !important; /* Green color for "VZW JET" */
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.info-section h3 {
+    color: #2C1A60 !important; /* Dark purple for the main title */
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
+
+.info-section p {
+    color: #555 !important; /* Light gray text for the description */
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    margin-top: 15px;
+    letter-spacing: 0.5px;
+}
+
+/* Custom Primary Button */
+.custom-btn-primary {
+    background-color: #2C1A60 !important; /* Dark purple */
+    color: white !important;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px; /* Optional: Rounded corners */
+}
+
+/* Custom Outline Button */
+.custom-btn-outline {
+    border-color: #32CD32 !important; /* Green outline */
+    color: #32CD32 !important;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px; /* Optional: Rounded corners */
+}
+
+.custom-btn-outline:hover {
+    background-color: #32CD32 !important; /* Green background on hover */
+    color: white !important;
+}
+
+
+/* Mission & Vision Section Styling */
+.mission-vision-section {
+    background-color: #f9f9f9; /* Light background for the entire section */
+}
+
+.mission-box {
+    background-color: #fdf6d3; /* Light yellow background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Light shadow for depth */
+}
+
+.mission-box h3 {
+    color: #2C1A60; /* Dark purple for the headers */
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.mission-box p {
+    color: #555; /* Dark gray text */
+    font-size: 1rem; /* Font size */
+    line-height: 1.6rem; /* Increased line height for readability */
+    margin-bottom: 10px;
+}
+
+/* Video Section */
+.embed-responsive {
+    margin-top: 20px;
+}
+
+/* Contact Page Css */
+/* Styling for location cards */
+.location-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.location-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Google Map Styling */
+.google-map {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact form styling */
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h4 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #002147;
+}
+
+.contact-form .form-group label {
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form .btn-primary {
+    background-color: #32CD32;
+    border: none;
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #228B22;
+}
+
+
+
+
+
+
+
+
 
 
