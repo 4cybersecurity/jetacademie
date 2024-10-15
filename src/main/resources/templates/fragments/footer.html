@@ -1,0 +1,75 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" th:href="@{https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css}">
+</head>
+
+<body>
+
+<!-- Footer -->
+<footer class="footer  text-white" th:fragment="footer">
+  <div class="container pt-5 pb-3">
+    <div class="row">
+      <!-- Address Section -->
+      <div class="col-md-3">
+        <h5>Adres</h5>
+        <p>Kunstlaan 3,<br>1210 Brussel</p>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="col-md-3">
+        <h5>Contact</h5>
+        <p>info@vzwjet.be<br>+32 488 60 36 98</p>
+      </div>
+
+      <!-- Regional Email Addresses -->
+      <div class="col-md-3">
+        <h5>Regio-mailadressen:</h5>
+        <p>
+          antwerpen@vzwjet.be<br>
+          limburg@vzwjet.be<br>
+          gent@vzwjet.be<br>
+          brussel@vzwjet.be<br>
+          leuven@vzwjet.be
+        </p>
+      </div>
+
+      <!-- Social Media Section -->
+      <div class="col-md-3 text-center">
+        <h5>Follow Us</h5>
+        <a href="https://www.instagram.com" target="_blank" class="text-white mx-2">
+          <i class="fab fa-instagram fa-2x"></i>
+        </a>
+        <a href="https://www.youtube.com" target="_blank" class="text-white mx-2">
+          <i class="fab fa-youtube fa-2x"></i>
+        </a>
+        <a href="https://www.facebook.com" target="_blank" class="text-white mx-2">
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+      </div>
+
+
+      <!-- Bottom section with logo in between -->
+      <div class="row mt-4 align-items-center">
+        <div class="col-md-4 text-left">
+          <p>&copy; Copyright 2024. Alle rechten voorbehouden aan <a href="#" class="text-success">vzw JET</a></p>
+        </div>
+        <div class="col-md-4 text-center">
+          <!-- Logo in the center -->
+          <img src="https://vzwjet.be/wp-content/uploads/2024/05/vzw-jet-logo.png" alt="Logo" style="max-width: 30%" class="footer-logo">
+        </div>
+        <div class="col-md-4 text-right">
+          <p>Designed by JET</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
