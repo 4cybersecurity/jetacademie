@@ -21,5 +21,16 @@ public class MainController {
         return "mentoring";
     }
 
+    @GetMapping("/religious-books")
+    public String religiousBooks() {
+        return "religious-books";
+    }
+
+    @GetMapping("/contact")
+    public String contactPage() {
+        return "contact";
+    }
+
+
 
 }
