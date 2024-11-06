@@ -89,6 +89,7 @@ body {
     color: white;
     padding: 10px 0;
     text-align: center;
+    margin-top: 20px;
 }
 
 /* Navbar Style Start */
@@ -300,6 +301,7 @@ body {
 .google-map {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
 }
 
 /* Contact form styling */
@@ -308,6 +310,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
 }
 
 .contact-form h4 {
@@ -329,6 +332,22 @@ body {
 .contact-form .btn-primary:hover {
     background-color: #228B22;
 }
+
+/* Home Page Button*/
+#homepage-button {
+    background-color: #2C1A60 !important; /* Dark purple */
+    color: white !important;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1rem;
+    border-radius: 5px; /* Optional: Rounded corners */
+}
+
+#homepage-button:hover {
+    background-color: #32CD32 !important; /* Green background on hover */
+    color: white !important;
+}
+
 
 
 
