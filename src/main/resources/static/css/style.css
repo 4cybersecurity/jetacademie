@@ -95,8 +95,8 @@ body {
 /* Navbar Style Start */
 
 .navbar {
-    background-color: #528fed; /* Navy background */
-    border-bottom: 2px solid #32CD32; /* Green bottom border */
+    background-color: #16407a; /* Navy background */
+    border-bottom: 2px solid white; /* white bottom border */
 }
 
 .navbar-brand {
@@ -118,7 +118,7 @@ body {
 }
 
 .form-inline .form-control {
-    border: 2px solid #32CD32; /* Green border for search input */
+    border: 2px solid white; /* white border for search input */
     border-radius: 5px;
 }
 
