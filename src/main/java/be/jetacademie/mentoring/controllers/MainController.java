@@ -31,6 +31,11 @@ public class MainController {
         return "contact";
     }
 
+    @GetMapping("/educational-books")
+    public String educationalBooks() {
+        return "educational-books";
+    }
+
 
 
 }
