@@ -18,7 +18,7 @@ body {
     text-align: center;
     margin: 40px 0;
     padding: 20px;
-    background-color: #002147; /* Lacivert ton */
+    background-color: #002147;
     color: white;
     border-radius: 10px;
 }
@@ -41,17 +41,17 @@ body {
 }
 
 .category-card:hover {
-    transform: translateY(-10px); /* Hover etkisi ile hafif yukarı kaydırma */
+    transform: translateY(-10px);
 }
 
 .card-img-top {
-    border-bottom: 5px solid #32CD32; /* Yeşil alt çizgi */
+    border-bottom: 5px solid #32CD32;
 }
 
 .card-body {
     background-color: white;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Kart gölgelendirme */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card-title {
@@ -95,30 +95,30 @@ body {
 /* Navbar Style Start */
 
 .navbar {
-    background-color: #16407a; /* Navy background */
-    border-bottom: 2px solid white; /* white bottom border */
+    background-color: #16407a;
+    border-bottom: 2px solid white;
 }
 
 .navbar-brand {
     font-size: 24px;
     font-weight: bold;
-    color: white; /* Green text color for brand */
+    color: white;
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: white; /* White text for links */
+    color: white;
     padding: 10px 20px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    background-color: #32CD32; /* Green background on hover */
-    color: #002147; /* Navy text on hover */
+    background-color: #32CD32;
+    color: #002147;
     border-radius: 5px;
 }
 
 .form-inline .form-control {
-    border: 2px solid white; /* white border for search input */
+    border: 2px solid white;
     border-radius: 5px;
 }
 
@@ -137,16 +137,16 @@ body {
 
 
 .card-img-top {
-    width: 100%; /* Ensures the image spans the width of the card */
-    height: 200px; /* Set the desired height */
-    object-fit: cover; /* Ensures the image fills the space without distortion */
-    border-bottom: 5px solid #32CD32; /* Optional: Green bottom border */
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 5px solid #32CD32;
 }
 
 
 /* Footer styling */
 .footer {
-    background-color: #16407a; /* Lacivert ton */
+    background-color: #16407a;
     color: white;
 }
 
@@ -185,7 +185,7 @@ body {
 }
 
 .footer .input-group-append .btn:hover {
-    background-color: #d4ac0d; /* Darker yellow on hover */
+    background-color: #d4ac0d;
 }
 
 .footer .input-group .form-control::placeholder {
@@ -213,14 +213,14 @@ body {
 }
 
 .info-section h3 {
-    color: #2C1A60 !important; /* Dark purple for the main title */
+    color: #2C1A60 !important;
     font-size: 3rem;
     font-weight: bold;
     letter-spacing: -0.5px;
 }
 
 .info-section p {
-    color: #555 !important; /* Light gray text for the description */
+    color: #555 !important;
     font-size: 1.1rem;
     line-height: 1.6rem;
     margin-top: 15px;
@@ -229,39 +229,39 @@ body {
 
 /* Custom Primary Button */
 .custom-btn-primary {
-    background-color: #2C1A60 !important; /* Dark purple */
+    background-color: #2C1A60 !important;
     color: white !important;
     border: none;
     padding: 10px 20px;
     font-size: 1rem;
-    border-radius: 5px; /* Optional: Rounded corners */
+    border-radius: 5px;
 }
 
 /* Custom Outline Button */
 .custom-btn-outline {
-    border-color: #32CD32 !important; /* Green outline */
+    border-color: #32CD32 !important;
     color: #32CD32 !important;
     padding: 10px 20px;
     font-size: 1rem;
-    border-radius: 5px; /* Optional: Rounded corners */
+    border-radius: 5px;
 }
 
 .custom-btn-outline:hover {
-    background-color: #32CD32 !important; /* Green background on hover */
+    background-color: #32CD32 !important;
     color: white !important;
 }
 
 
 /* Mission & Vision Section Styling */
 .mission-vision-section {
-    background-color: #f9f9f9; /* Light background for the entire section */
+    background-color: #f9f9f9;
 }
 
 .mission-box {
-    background-color: #fdf6d3; /* Light yellow background */
-    border-radius: 10px; /* Rounded corners */
+    background-color: #fdf6d3;
+    border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Light shadow for depth */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .mission-box h3 {
@@ -271,9 +271,9 @@ body {
 }
 
 .mission-box p {
-    color: #555; /* Dark gray text */
-    font-size: 1rem; /* Font size */
-    line-height: 1.6rem; /* Increased line height for readability */
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6rem;
     margin-bottom: 10px;
 }
 
@@ -335,16 +335,16 @@ body {
 
 /* Home Page Button*/
 #homepage-button {
-    background-color: #2C1A60 !important; /* Dark purple */
+    background-color: #2C1A60 !important;
     color: white !important;
     border: none;
     padding: 15px 25px;
     font-size: 1rem;
-    border-radius: 5px; /* Optional: Rounded corners */
+    border-radius: 5px;
 }
 
 #homepage-button:hover {
-    background-color: #32CD32 !important; /* Green background on hover */
+    background-color: #32CD32 !important;
     color: white !important;
 }
 

@@ -15,7 +15,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests((authz) -> authz
                         .anyRequest().permitAll() // Allow all requests without authentication
                 )
-                .csrf(AbstractHttpConfigurer::disable); // Correct way to disable CSRF in Spring Security 6.1+
+                .csrf(AbstractHttpConfigurer::disable);
 
         return http.build();
     }
